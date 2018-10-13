@@ -1,0 +1,96 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "python",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Python",
+                    "slots": [],
+                    "samples": [
+                        "python",
+                        "what is python",
+                        "get started with python",
+                        "teach me python"
+                    ]
+                },
+                {
+                    "name": "javascript",
+                    "slots": [],
+                    "samples": [
+                        "learn javascript",
+                        "teach me javascript",
+                        "What is javascript"
+                    ]
+                },
+                {
+                    "name": "facts",
+                    "slots": [
+                        {
+                            "name": "Name",
+                            "type": "Name"
+                        }
+                    ],
+                    "samples": [
+                        "facts {Name}",
+                        "tell me facts about {Name}",
+                        "tell me facts {Name}"
+                    ]
+                },
+                {
+                    "name": "BhagwatGeeta",
+                    "slots": [],
+                    "samples": [
+                        "Teach me Bhagwat Geeta"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Name",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "variables"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "JavaScript"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Java"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Python"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
